@@ -1,0 +1,9 @@
+# executable / compiled files
+a
+b
+c
+*.out
+*.exe
+
+Fenwick Tree/2D_Fenwick_Tree
+Binary Search Tree(BST)/full_code
