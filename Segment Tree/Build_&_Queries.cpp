@@ -51,7 +51,7 @@ struct SegmentTree{
         int tm=mid(tl,tr);
         if(i<=tm)update(node*2,tl,tm,i,val);
         else update(node*2+1,tm+1,tr,i,val);
-        tree[node]=tree[node*2]+tree[node*2+1];
+        tree[node]=tree[node*2]+tree[node*2+1];//for max : max(tree[node*2],tree[node*2+1])
     }
 };
 
