@@ -1,9 +1,14 @@
 # executable / compiled files
 a
-b
-c
-*.out
 *.exe
+*.out
+a.out
+*.o
+*.obj
+.vscode/
+.cph/
+*~
+
 
 Fenwick Tree/2D_Fenwick_Tree
 Binary Search Tree(BST)/full_code
