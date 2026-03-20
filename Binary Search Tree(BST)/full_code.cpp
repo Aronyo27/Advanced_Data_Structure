@@ -47,7 +47,6 @@ void inorder(Node*root){
     inorder(root->right);
 }
 
-
 Node*findMin(Node*root){
     while(root->left!=nullptr)root=root->left;
     return root;
